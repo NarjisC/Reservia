@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reservia, site de location de vacances">
+    <meta name="author" content="narjiscotonnec">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="section.css">
+    <link rel="stylesheet" type="text/css" href="activite.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script
+      src="https://kit.fontawesome.com/bcad5a07b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="logo/Reservia@3x.png"
+    >
+    <title>Reservia</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="logo/Reservia.svg" id="logo" alt="logo Reservia">
+      <ul>
+        <li class="menu1"><a href="#Hébergements">Hébergements</a></li>
+        <li class="menu2"><a href="#Activités">Activités</a></li>
+        <li>S'inscrire</li>
+      </ul>
+  
+    </header>
+
+    <main>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p>En plein centre de ville ou en pleine nature</p>
+
+      <form>
+        <button class="location"><i class="fa fa-map-marker"></i></button>
+        <input type="text" name="search" placeholder="Ville, Pays">
+        <button class="search">Rechercher</button>
+        <i class="fa fa-search"></i>
+      </form>
+
+      <div>
+      <h3>Filtres</h3>
+      <ul class="selection">
+        <li>
+          <button class="filtres">
+            <span class="icon"><i class="fa fa-money"></i></span>Économique
+          </button>
+        </li>
+        <li>
+          <button class="filtres">
+            <span class="icon"><i class="fa fa-child"></i></span>Familial
+          </button>
+        </li>
+        <li>
+          <button class="filtres">
+            <span class="icon"><i class="fa fa-heart"></i></span>Romantique
+          </button>
+        </li>
+        <li>
+          <button class="filtres">
+            <span class="icon"><i class="fas fa-dog"></i></span>Animaux
+            autorisés
+          </button>
+        </li>
+      </ul>
+      </div>
+
+
+      <div class="info">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-1x"></i>
+          <i class="fas fa-info-circle fa-stack-1x fa-inverse"></i>
+        </span>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+      
+    </main>
+
+    <section>
+      <div id="hebergement">
+        <h2 id="Hébergements">Hébergements à Marseille</h2>
+
+        <div class="section1">
+          <article class="one">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Chambre avec deux lits superposés et miroir vue sur la rue"
+              >
+              <h3>Auberge la Cannebière</h3>
+              <p>Nuit à partir de <b>25€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star grey"></i>
+              </div>
+            </a>
+          </article>
+
+          <article class="two">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                alt="Chambre au thème gris et blanc avec une fenêtre et deux lits simples"
+              >
+              <h3>Hôtel du Port</h3>
+              <p>Nuit à partir de <b>52€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+              </div>
+            </a>
+          </article>
+
+          <article class="three">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                alt="Chambre au thème beige, moderne avec dressing et lit double"
+              >
+              <h3>Hôtel des Mouettes</h3>
+              <p>Nuit à partir de <b>76€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star grey"></i>
+              </div>
+            </a>
+          </article>
+
+          <article class="four">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="Chambre au thème bleu et blanc avec un lit double et cadre océan"
+              >
+              <h3>Hôtel de la Mer</h3>
+              <p>Nuit à partir de <b>46€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star grey"></i>
+                <i class="fa fa-star grey"></i>
+              </div>
+            </a>
+          </article>
+
+          <article class="five">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                alt="Chambre au thème chalet avec deux lits superposés et rideaux"
+              >
+              <h3>Auberge le Panier</h3>
+              <p>Nuit à partir de <b>23€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star grey"></i>
+              </div>
+            </a>
+          </article>
+
+          <article class="six">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                alt="Chambre au thème blanc avec deux lits simples, avec bureau et télévision"
+              >
+              <h3>Hôtel chez Amina</h3>
+              <p>Nuit à partir de <b>96€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+              </div>
+            </a>
+          </article>
+        </div>
+        <h4 class="afficher"><a href="#">Afficher plus</a></h4>
+      </div>
+
+      <div id="populaire">
+        <h2>Les plus populaires<i class="fa fa-line-chart"></i></h2>
+
+        <div class="section2">
+          <article class="one">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                alt="Chambre au thème vert, baroque, avec un lit double, miroirs, porte-fenêtre avec balcon"
+              >
+
+              <h3>Hôtel le Soleil</h3>
+              <h3>du Matin</h3>
+              <br>
+              <p>Nuit à partir de <b>128€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+              </div>
+            </a>
+          </article>
+
+          <article class="two">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                alt="Chambre à l'étage au thème gris et industriel, avec lit double, un banc et une fenêtre"
+              >
+              <h3>Au Cœur de l'Eau</h3>
+              <h3>Chambres d'hôtes</h3>
+              <br>
+              <p>Nuit à partir de <b>71€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star grey"></i>
+              </div>
+            </a>
+          </article>
+
+          <article class="three">
+            <a href="#">
+              <img
+                src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                alt="Chambre au thème blanc avec une tête de lit en bois, deux tables de chevet et un lit double"
+              >
+
+              <h3>Hôtel Tout Bleu</h3>
+              <h3>et Blanc</h3>
+              <br>
+              <p>Nuit à partir de <b>68€</b></p>
+              <div class="rating">
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star blue"></i>
+                <i class="fa fa-star grey"></i>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <aside>
+      <h2 id="Activités">Activités à Marseille</h2>
+
+      <div class="activite">
+        <figure class="one">
+          <img
+            class="one"
+            src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt="Port de plaisance, bateaux à moteurs et à voile, Canebière"
+          >
+          <figcaption>Vieux Port</figcaption>
+        </figure>
+
+        <figure class="two">
+          <img
+            src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+            alt="Vue sur le fort et colline rocheuse, ciel nuageux"
+          >
+          <figcaption>Fort de Pomègues</figcaption>
+        </figure>
+
+        <figure class="three">
+          <img
+            src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+            alt="Téléscope avec panorama sur l'archipel du Frioul et mer méditerannée, ciel bleu"
+          >
+          <figcaption>Îles du Frioul</figcaption>
+        </figure>
+
+        <figure class="four">
+          <img
+            src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+            alt="Littoral de falaises calcaires, arbustes et criques entre mer et ciel"
+          >
+          <figcaption>Parc national des Calanques</figcaption>
+        </figure>
+
+        <figure class="five">
+          <img
+            src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+            alt="Basilique dominant la ville de Marseille, ciel bleu"
+          >
+          <figcaption>Notre-Dame-de-la-Garde</figcaption>
+        </figure>
+
+        <figure class="six">
+          <img
+            src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+            alt="Vue panoramique du palais Longchamp avec jardin et bassin"
+          >
+          <figcaption>Parc Longchamp</figcaption>
+        </figure>
+      </div>
+    </aside>
+
+    <footer>
+      <ul>
+        <li><h3>À propos</h3></li>
+        <li><a href="#">Fonctionnement du site </a></li>
+        <li><a href="#">Conditions générales de vente</a></li>
+        <li><a href="#">Données et confidentialités</a></li>
+      </ul>
+
+      <ul>
+        <li><h3>Nos hébergements</h3></li>
+        <li><a href="#">Charte qualité</a></li>
+        <li><a href="#">Soumettre votre hôtel</a></li>
+      </ul>
+
+      <ul>
+        <li><h3>Assistance</h3></li>
+        <li><a href="#">Centre d'aide</a></li>
+        <li><a href="#">Nous contacter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
